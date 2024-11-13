@@ -1,9 +1,9 @@
 import CountryData from "../CountryData/CountryData";
 
-const CountryDetails = (country, handleVisitedCountry, handleVisitedFlags) => {
+const CountryDetails = ({country, handleVisitedCountry, handleVisitedFlags}) => {
     return (
         <div>
-            <h3>Counrt Details</h3>
+            <h5>Counrt Details</h5>
             <hr />
             <CountryData>
                 country= {country}

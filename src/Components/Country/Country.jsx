@@ -1,9 +1,8 @@
 import { useState } from 'react';
 import './Country.css'
-import CountryDetails from '../../assets/Countrydetails/CountryDetails';
+import CountryDetails from '../Countrydetails/CountryDetails';
 
 const Country = ({country, handleVisitedCountry, handleVisitedFlags}) => {
-    console.log(country)
     
     const {name, flags, population, area, cca3} = country;
 
